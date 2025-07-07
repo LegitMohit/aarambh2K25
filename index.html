@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARAMBH 2k25 - Cyber Security Freshers Party</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="particles"></div>
+            <div class="header-content">
+                <h1 class="main-title">
+                    <span class="gradient-text">AARAMBH</span>
+                    <span class="year">2k25</span>
+                </h1>
+                <p class="subtitle">🔒 Cyber Security Freshers Party 🔒</p>
+                <p class="theme-text">Enter the Matrix of Knowledge</p>
+                <div class="decorative-line"></div>
+            </div>
+        </header>
+
+        <!-- Invitation Section -->
+        <section class="invitation-section">
+            <div class="invitation-card">
+                <div class="card-header">
+                    <i class="fas fa-shield-alt"></i>
+                    <h2>Access Granted - You're Invited!</h2>
+                </div>
+                <div class="card-content">
+                    <p class="invitation-text">
+                        Dear Firt Year,<br><br>
+                        We, the senior, are excited to invite you to <strong>AARAMBH 2k25</strong> - A Cyber Security themed freshers party! 
+                        Step into the digital realm where code meets celebration, and security meets socializing.
+                    </p>
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                             <span>Formal Section</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-tv"></i>
+                            <span>Presentation</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-music"></i>                           <span>Preformance</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Fun Section</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video-section">
+            <div class="video-card">
+                <div class="section-header">
+                    <h2>Event Preparation</h2>
+                </div>
+                <div class="video-container">
+                    <video class="event-video" controls poster="">
+                        <source src="aarambh2K25Video.mp4" type="video/mp4">
+                        <!-- <source src="aarambh2K25Video.mp4" type="video/webm"> -->
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-description">
+                    <p>Get a glimpse of what awaits you at AARAMBH 2k25! Experience the fusion of technology, cybersecurity, and celebration.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown Timer Section -->
+        <section class="countdown-section">
+            <div class="countdown-card">
+                <div class="section-header">
+                    <i class="fas fa-clock"></i>
+                    <h2>Event Countdown</h2>
+                    <p>Time remaining until AARAMBH 2k25</p>
+                </div>
+                <div class="countdown-display">
+                    <div class="time-unit">
+                        <div class="time-number" id="days">00</div>
+                        <div class="time-label">DAYS</div>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-unit">
+                        <div class="time-number" id="hours">00</div>
+                        <div class="time-label">HOURS</div>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-unit">
+                        <div class="time-number" id="minutes">00</div>
+                        <div class="time-label">MINUTES</div>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-unit">
+                        <div class="time-number" id="seconds">00</div>
+                        <div class="time-label">SECONDS</div>
+                    </div>
+                </div>
+                <div class="countdown-message">
+                    <p id="countdownMessage">Loading countdown...</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- RSVP Section -->
+        <section class="rsvp-section">
+            <div class="rsvp-card">
+                <h2>Have A Look At The Invitation</h2>
+                <p>Just View the invitation to join us</p>
+                <div class="rsvp-buttons">
+                    <a href="Aarambh2K25 Invitation.jpeg" download="Aarambh2K25 Invitation.jpeg" class="download-button">
+                        <button class="rsvp-btn yes-btn">
+                            <i class="fas fa-check"></i> View Invitation
+                        </button>
+                    </a>
+                </div>
+                <div class="rsvp-status" id="rsvpStatus"></div>
+            </div>
+        </section>
+
+        <!-- Event Details Section -->
+        <section class="details-section">
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Date & Time</h3>
+                    <p>Sunday, July 13th, 2025</p>
+                    <p class="time">10:00 AM - 5:00 PM</p>
+                </div>
+                <div class="detail-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Venue</h3>
+                    <p>BCCA Department</p>
+                    <p class="venue-name">Room no. 305</p>
+                </div>
+                <div class="detail-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3>Dress Code</h3>
+                    <p>Normal</p>
+                    <p class="dress-hint">Traditional & Formal Wear Preferred!</p>
+                </div>
+            </div>
+        </section>
+
+        
+
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 BCCA Department. All rights reserved.</p>
+            <p>Secured with <i class="fas fa-shield-alt"></i> by your Seniors</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
